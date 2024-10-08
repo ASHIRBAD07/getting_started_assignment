@@ -1,0 +1,55 @@
+Q1.Why do we start learning a programming language with “Hello, World!”?
+Ans:  The "Hello, World!" program is used as a starting point because it’s simple, provides immediate feedback, and confirms that the programming environment is set up correctly. It also introduces basic syntax and follows a long-standing programming tradition.
+
+
+Q2.How is the use of comments and how do you write comments in HTML?
+Ans: Use of Comments in HTML:
+Comments in HTML are used to add notes or explanations within the code, which makes it easier to understand and maintain. They help other developers (and your future self) to understand the structure and purpose of the code, without affecting the display of the webpage.
+
+To write a comment in HTML, use the following syntax:
+
+<!-- This is a comment -->
+Anything inside <!-- and --> will be treated as a comment and will not be displayed in the browser.
+
+
+Q3.What are elements, tags, and attributes, and the difference between them?
+Ans:  In HTML, elements, tags, and attributes are fundamental building blocks with distinct purposes:
+
+1. Elements:
+
+An element represents a part of the webpage, such as a paragraph, a heading, or an image.
+It includes an opening tag, content (if applicable), and a closing tag.
+For example, <p>This is a paragraph.</p> is a paragraph element.
+
+2. Tags:
+
+Tags are the keywords placed between angle brackets (< >) that define the start and end of an HTML element.
+The opening tag (<tagname>) indicates the start of an element, while the closing tag (</tagname>) indicates its end.
+For example, in <p>This is a paragraph.</p>, <p> is the opening tag, and </p> is the closing tag.
+
+3. Attributes:
+
+Attributes provide additional information about an element, such as its characteristics or properties.
+They are included within the opening tag and are written as name="value".
+For example, <img src="image.jpg" alt="A description of the image"> has src and alt attributes that specify the image's source and alternative text.
+
+Differences:
+
+Elements are the complete structure (tags + content) that define a webpage's content.
+Tags are the markers that signify the start and end of elements.
+Attributes are optional settings added to tags that define specific properties or details for the elements.
+
+
+Q4. Briefly explain what HTML entities are.
+Ans:
+HTML entities are special codes used to display characters that are reserved in HTML or not easily typed on a keyboard. These entities start with an & and end with a ;.
+
+For example:
+
+&lt; displays <
+&gt; displays >
+&amp; displays &
+&quot; displays "
+They ensure that characters are displayed correctly in a web browser, especially for symbols like < and > that have specific meanings in HTML code.
+
+
